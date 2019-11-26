@@ -1,0 +1,41 @@
+* {box-sizing: border-box}
+
+.box {
+    color: white;
+    font-size: 100px;
+    text-align: center;
+    padding: 15px;
+    background-color: red;
+    border: black solid 2px;
+    height: 200px;
+    width: 200px;
+}
+
+.box{
+  width: 400px;
+}
+
+.MumContainer{
+  position: relative;
+}
+
+.Container {
+    display: flex;
+    flex-wrap: wrap;
+   position: absolute;
+} 
+
+.Empty{
+ display: flex;
+  height: 200px;
+  width: 200px;
+ opacity: none;
+}
+
+.Empty{
+  width: 400px;
+}
+
+img {
+  position: absolute;
+}
